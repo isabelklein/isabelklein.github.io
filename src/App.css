@@ -1,61 +1,64 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+@import url("https://use.typekit.net/xxh5fbs.css");
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900&display=swap');
 
 body{
   font-size: 16px;
   background: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
   z-index: 1;
 }
-
 
 .App {
   text-align: center;
 }
 
-
-
 .App-header {
   position: relative;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: black;
-  top:4em;
+  top:1em;
+  right: 15em;
 }
-.heading-background{
-  position: fixed;
-  opacity: 0.05;
-  font-size: 25em;
-  left:-0.2em;
-  top:-0.5em;
-  z-index: -100;
-  color:#9352ae;
-}
+
 header{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  left: 10em;
 }
 header h1{
-font-size: 1em;
-font-weight: 400;  
-padding: 2em;
-margin-right: 50em;
+  font-size: 1em;
+  font-weight: 400;  
+  padding: 2em;
+  margin-right: 50em;
+  left: 10em;
 }
 nav{
   position:fixed;
-  left:60em;
-  top:6em;
-z-index: 100;
+  left:66em;
+  top:2em;
+  z-index: 100;
+}
+nav h1{
+  position: fixed;
+  left: 5em;
+  top: 2em;
+  font-size: 1em;
+  text-transform: capitalize;
+  font-family: 'poppins', 'sans-serif';
+  font-weight: 400;
+  letter-spacing: 2px;
 }
 nav li{
   display: inline-block;
   cursor: pointer;
-
 }
 nav li .link{
   text-decoration: none;
@@ -75,8 +78,44 @@ li .link:hover{
   color:black;
   opacity: 1;
 }
-
-.header-title button{
+.header-title{
+  font-family: 'Playfair Display', serif;
+  font-size: 4em;
+  text-align: left;
+  top:1em;
+  position: relative;
+}
+.header-text{
+  position: relative;
+  font-family: 'poppins', sans-serif;
+  font-size: 0.4em;
+  display: flex;
+  flex-direction: row;
+  top: 1em;
+  width: 20em;
+}
+.about{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 10em;
+  padding-bottom: 20em;
+}
+.about-content{
+  position: relative;
+  left:12em;
+}
+.about-content h1{
+  font-family: 'playfair display', serif;
+  font-size: 5em;
+  text-align: left;
+}
+.about-content p{
+  font-size: 1.3em;
+  text-align: left;
+  width: 25em;
+}
+.about button{
   background: black;
   border: 0px;
   padding: 1em 3em;
@@ -85,107 +124,71 @@ li .link:hover{
   -moz-transition: all 0.2s ease-out;
   -ms-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
+  height: 4em;
+  margin-top: 4em;
 }
-.header-title button:hover{
-  opacity: 0.8;
-}
-.header-title button a{
-  font-family: 'Open Sans', sans-serif;
-  color:white;
+.about a {
+  color: white;
   text-decoration: none;
-}
-.header-title{
-  position: relative;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3em;
-  text-align: left;
-  top:2em;
-}
-.about{
-  display: flex;
-  flex-direction: row;
-}
-.about-content{
-  position: relative;
-  left:15em;
-}
-.about-content h1{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 5em;
-  text-align: left;
-}
-.about-content p{
-  font-size: 1.3em;
-  text-align: left;
-  width: 37em;
+  font-size: 1.5em;
 }
 .about img{
-  margin-left: 5em;
+  margin-left: 17em;
+  margin-top: 2em;
+  height: 40em;
+  border-radius:1em;
+  box-shadow: 10px 10px 20px rgb(219, 219, 219);
 }
 .work{
   position: relative;
   display: flex;
   flex-direction: column;
-  left:15em;
-  top:8em;
   align-items: flex-start;
+  bottom: 4em;
 }
 .work .heading{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'poppins', sans-serif;
   font-size: 5em;
   text-align: left;
 }
 .work .work-content{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(1,1fr);
   grid-gap: 2em;
 }
 
-.project img{
-width: 30em;  
-height: 30em;
-}
-.contact{
+.project {
   position: relative;
-  top:20em;
-  left:15em;
-  text-align: left;
+  left: 50%;
+  margin-left:-80%;
 }
-.contact h1{
-    font-family: 'Montserrat', sans-serif;
-  font-size: 5em;
-  text-align: left;
+.project img{ 
+  width: 75em;
+  transition: opacity 0.5s ease-in-out;
 }
-.amazing-color{
-  color:#9352ae;
-  opacity: 1;
-}
-
-.contact .email{
-  color:black;
-  font-size: 2em;
-}
-.contact li{
-  display: inline-block;
-  margin-top:0;
-  margin-bottom: 0;
-  margin-right: 1em;
-  margin-left: 0;
-}
-.contact li a{
-  text-decoration: none;
-  color:black;
+.project img:hover{
+  opacity: 0.5;
 }
 .footer{
   position: relative;
-  top:2em;
-  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 3em;
+  padding-left: 7em;
+  padding-top: 0em;
 }
-.footer a{
+.icon{
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: repeat(11,1fr);
+  grid-gap: 1.5em;
+  color: white;
   text-decoration: none;
-  color:#2c59fb;
+  left: 47em;
 }
-
+.footer img{
+  height: 1em;
+}
 
 /* SMARTPHONES PORTRAIT */
 @media only screen and (min-device-width: 320px) and (max-device-width : 480px){
@@ -213,7 +216,6 @@ nav{
 }
 .about{position: relative;
       display: flex;
-      top:-30em;
 }
 .about img{
   display: none
@@ -265,7 +267,6 @@ height: 45em;
   padding: 1em;
   font-size: 2em;
 }
-
 
 }
 
