@@ -11,7 +11,7 @@ export default
         headerTagline: [
                         'Hi, I\'m Isabel,',
                         'User Experience Designer from Seattle.',
-                        'I\'ll be joining Amazon Web Services this summer as a UX/UI Design Intern.',
+                        'I\'ll be joining Amazon Web Services this summer as a UX/UI Design Intern in the Bay Area, California.',
                         ' ',
                         "Scroll down to see my work.",
     ],
@@ -66,8 +66,8 @@ export default
 
         ],
         social: [
-            // {   name:'Github',
-            //     url:'https://github.com/isabelklein'},
+            {   name:'Github',
+                url:'https://github.com/isabelklein'},
             {
                 name: 'LinkedIn',
                 url: 'https://www.linkedin.com/in/isabelmklein/'

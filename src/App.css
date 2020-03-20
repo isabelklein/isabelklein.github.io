@@ -3,18 +3,54 @@
 @import url("https://use.typekit.net/xxh5fbs.css");
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:900&display=swap');
 
+
+.project{
+  text-align: left;
+  position: relative;
+  top: 10em;
+  left: 15em;
+  max-width: 60em;
+  margin-bottom: 15em;
+}
+.project-summary{
+  display: inline-grid;
+  grid-template-columns: repeat(4,2fr);
+}
+.project h1{
+  font-family: 'playfair display', 'serif';
+  font-size: 3em;
+}
+.project h2{
+  font-weight: 400;
+  font-size: 2.5em;
+}
+.project th{
+  font-size: 1.5em;
+}
+.project td{
+  max-width:30em;
+  text-align: left;
+  padding-right: 5em;
+  vertical-align: top;
+}
+.project ul{
+  padding-left: 1em;
+}
+.project li{
+  margin-bottom: 1em;
+}
+
 body{
   font-size: 16px;
   background: white;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'avenir', 'sans-serif';
   overflow-x: hidden;
   z-index: 1;
 }
-
 .App {
   text-align: center;
 }
-
 .App-header {
   position: relative;
   min-height: 90vh;
@@ -25,7 +61,6 @@ body{
   top:1em;
   right: 15em;
 }
-
 header{
   display: flex;
   flex-direction: row;
@@ -52,7 +87,8 @@ nav h1{
   top: 2em;
   font-size: 1em;
   text-transform: capitalize;
-  font-family: 'poppins', 'sans-serif';
+  /* font-family: 'poppins', 'sans-serif'; */
+  font-family: 'avenir', 'sans-serif';
   font-weight: 400;
   letter-spacing: 2px;
 }
@@ -80,6 +116,7 @@ li .link:hover{
 }
 .header-title{
   font-family: 'Playfair Display', serif;
+  /* font-family: 'avenir', 'sans-serif'; */
   font-size: 4em;
   text-align: left;
   top:1em;
@@ -87,7 +124,8 @@ li .link:hover{
 }
 .header-text{
   position: relative;
-  font-family: 'poppins', sans-serif;
+  /* font-family: 'poppins', sans-serif; */
+  font-family: 'avenir', 'sans-serif';
   font-size: 0.4em;
   display: flex;
   flex-direction: row;
@@ -107,6 +145,7 @@ li .link:hover{
 }
 .about-content h1{
   font-family: 'playfair display', serif;
+  /* font-family: 'avenir', 'sans-serif'; */
   font-size: 5em;
   text-align: left;
 }
@@ -145,6 +184,7 @@ li .link:hover{
   flex-direction: column;
   align-items: flex-start;
   bottom: 4em;
+  transition: opacity 0.5s ease-in-out;
 }
 .work .heading{
   font-family: 'poppins', sans-serif;
@@ -156,17 +196,16 @@ li .link:hover{
   grid-template-columns: repeat(1,1fr);
   grid-gap: 2em;
 }
-
-.project {
+.thumbnail {
   position: relative;
   left: 50%;
   margin-left:-80%;
 }
-.project img{ 
+.thumbnail img{ 
   width: 75em;
   transition: opacity 0.5s ease-in-out;
 }
-.project img:hover{
+.work img:hover{
   opacity: 0.5;
 }
 .footer{
@@ -245,6 +284,7 @@ height: 45em;
 }
 
 .contact{
+  bottom: 0;
   top:15em;
   left:2em;
 }
@@ -353,8 +393,6 @@ height: 30em;
 @media only screen  and (min-width : 1824px) {
 /* Styles */
 
-
-
 body{
     font-size: 20px;
   }
@@ -409,16 +447,15 @@ height: 32em;
 }
 
 .contact{
+  position: absolute;
+  bottom: 0;
   top:10em;
   left:8em;
 }
+
 .contact h1{
   font-size: 8em;
 }
-.contact .email{
-  font-size: 5em;
-}
-
 .contact li a{
   font-size: 4em;
   padding: 1em;

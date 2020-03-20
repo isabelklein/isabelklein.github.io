@@ -6,6 +6,10 @@ import Home from './home.js';
 import Fade from 'react-reveal/Fade';
 import data from '../data'
 
+import Project1 from '../projects/project1.js';
+import Project2 from '../projects/project2.js';
+import Project3 from '../projects/project3.js';
+
 class Navbar extends Component {
     state = {  }
     scrollToTop = () => {
@@ -17,19 +21,16 @@ class Navbar extends Component {
 
             <Route exact path="/" component={Home} />
             <Route path="/About" component={About} />
-            {/* <Route path="/project3" component={Project3} /> */}
+            <Route exact path="/project1" component={Project1} />
+             <Route path="/project2" component={Project2} />
+             <Route path="project3" component={Project3} />
 
         <div>
-        
-
-        <nav>
-        
+        <nav>  
             <ul>
-
             <div>
                 <h1><Fade bottom cascade>{data.name}</Fade></h1>
             </div>
- 
                 <li><Link
                     className='link'
                     activeClass="active"
@@ -58,6 +59,7 @@ class Navbar extends Component {
             </ul>
         </nav>
         </div>
+
         </BrowserRouter>);
     }
 }
