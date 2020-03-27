@@ -11,8 +11,9 @@ export default
         headerTagline: [
                         'Hi, I\'m Isabel,',
                         'User Experience Designer from Seattle.',
-                        'I\'ll be joining Amazon Web Services this summer as a UX/UI Design Intern in the Bay Area, California.',
-                        ' ',
+                        'I\'ll be joining Amazon this summer as a',
+                        'UX Design Intern in the Bay Area, California.',
+                        '',
                         "Scroll down to see my work.",
     ],
         contactEmail:'isabelmklein@outlook.com',

@@ -25,12 +25,12 @@ class Project1 extends Component {
                 <thead>
                     <th style={{width: 22 + 'em'}}>Background</th>
                     <th style={{width: 9 + 'em'}}>My Role</th>
-                    <th style={{width: 12 + 'em'}}>Team</th>
+                    <th style={{width: 9 + 'em'}}>Team</th>
                     <th style={{width: 7 + 'em'}}>Timeline</th>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Treatment Companion is a mobile web app to help support tuberculosis patients and care providers and increase treatement completion rates. It was deployed in a 6-month pilot study in Argentina in 2019. My team redesigned the app based on pilot study feedback.</td>
+                        <td>Treatment Companion is a mobile web app to help support tuberculosis patients and care providers and increase treatement completion rates. It was deployed in a 6-month pilot study in Argentina in 2019. My team redesigned the app based on pilot study feedback to prepare it for a second pilot study later in 2020.</td>
                         <td>
                             <ul>
                                 <li>UX/UI Design</li>
