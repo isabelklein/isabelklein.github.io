@@ -31,22 +31,22 @@ export default
             },
             {
                 id: 2,
-                title: 'Washington Trails Association Rebrand',
-                service: 'Brand Design',
+                title: 'UWConnect',
+                service: 'UX Design',
                 imageSrc: project2,
                 url: '/project2'
             },
             { 
                 id: 3,
-                title: 'Project Three',
-                service: 'Web App',
+                title: 'Alumni Pathways',
+                service: 'User Research',
                 imageSrc: project3,
                 url: '/project3'
             },
             {
                 id: 4,
-                title: 'Project Four',
-                service: 'Branding',
+                title: 'WTA Rebrand',
+                service: 'Brand Design',
                 imageSrc: project4,
                 url: '/project4'
            },

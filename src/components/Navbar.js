@@ -9,6 +9,7 @@ import data from '../data'
 import Project1 from '../projects/project1.js';
 import Project2 from '../projects/project2.js';
 import Project3 from '../projects/project3.js';
+import Project4 from '../projects/project4.js';
 
 class Navbar extends Component {
     state = {  }
@@ -23,7 +24,8 @@ class Navbar extends Component {
             <Route path="/About" component={About} />
             <Route exact path="/project1" component={Project1} />
              <Route path="/project2" component={Project2} />
-             <Route path="project3" component={Project3} />
+             <Route path="/project3" component={Project3} />
+             <Route path="/project4" component={Project4} />
 
         <div>
         <nav>  

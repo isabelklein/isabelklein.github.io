@@ -18,7 +18,7 @@ import add from '../images/project2/add.png';
 import save from '../images/project2/save.png';
 import recap from '../images/project2/recap.png'
 
-class Project2 extends Component {
+class Project4 extends Component {
     state = {}
 
     render() {
@@ -264,4 +264,4 @@ class Project2 extends Component {
     }
 }
 
-export default Project2;
+export default Project4;

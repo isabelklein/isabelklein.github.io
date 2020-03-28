@@ -7,11 +7,29 @@
 .project{
   text-align: left;
   position: relative;
-  top: 10em;
+  top: 0em;
   left: 15em;
   max-width: 60em;
-  margin-bottom: 15em;
+  margin-bottom: 7em;
 }
+
+.project-header{
+  position: relative; 
+  left: -15em;
+  margin-bottom: 4em;
+}
+
+.project-header img{
+  width: 90em;
+}
+
+.project-image-wide img{
+  margin-left: -15em;
+  margin-bottom: 4em;
+  margin-top: 5em;
+  width: 90em;
+}
+
 .project-summary{
   display: inline-grid;
   grid-template-columns: repeat(4,2fr);
@@ -40,9 +58,36 @@
   margin-bottom: 1em;
 }
 
+.project-links{
+  font-size: 48px;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: grab;
+  color: rgb(184, 184, 184);
+  text-align: right;
+}
+
+.project-links a{
+  text-decoration: none;
+  color: rgb(131, 131, 131);
+  transition: 0.5s;
+}
+
+.project-links a:hover{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.project-gif img{
+  height: 470px;
+  width: 426px;
+  object-fit: cover;
+}
+
 body{
   font-size: 16px;
   background: white;
+  /* background: rgba(245, 245, 245, 0.795); */
   /* font-family: 'Poppins', sans-serif; */
   font-family: 'avenir', 'sans-serif';
   overflow-x: hidden;
@@ -87,7 +132,6 @@ nav h1{
   top: 2em;
   font-size: 1em;
   text-transform: capitalize;
-  /* font-family: 'poppins', 'sans-serif'; */
   font-family: 'avenir', 'sans-serif';
   font-weight: 400;
   letter-spacing: 2px;
@@ -116,7 +160,6 @@ li .link:hover{
 }
 .header-title{
   font-family: 'Playfair Display', serif;
-  /* font-family: 'avenir', 'sans-serif'; */
   font-size: 4em;
   text-align: left;
   top:1em;
@@ -124,7 +167,6 @@ li .link:hover{
 }
 .header-text{
   position: relative;
-  /* font-family: 'poppins', sans-serif; */
   font-family: 'avenir', 'sans-serif';
   font-size: 0.4em;
   display: flex;
@@ -145,7 +187,6 @@ li .link:hover{
 }
 .about-content h1{
   font-family: 'playfair display', serif;
-  /* font-family: 'avenir', 'sans-serif'; */
   font-size: 5em;
   text-align: left;
 }
