@@ -52,17 +52,8 @@ class Project1 extends Component {
                     </tbody>
                 </table>
 
-                {/* <div style={{ display: 'flex', flexDirection: 'row', marginTop: 4 + 'em' }}>
-                    <img src={screen1} alt='Treatment Companion App' style={{ width: 13 + 'em', marginBottom: 4 + 'em', marginRight: 2 + 'em' }}></img>
-                    <img src={screen4} alt='Treatment Companion App' style={{ width: 13 + 'em', marginBottom: 4 + 'em', marginRight: 2 + 'em' }}></img>
-                    <img src={screen3} alt='Treatment Companion App' style={{ width: 13 + 'em', marginBottom: 4 + 'em', marginRight: 2 + 'em' }}></img>
-                    <img src={screen2} alt='Treatment Companion App' style={{ width: 13 + 'em', marginBottom: 4 + 'em', marginRight: 2 + 'em' }}></img>
-                </div> */}
-
-
-
                 <div style={{ marginBottom: 4 + 'em' }}>
-                    <h2 style={{ fontWeight: 'bold' }}>Challenge</h2>
+                    <h2>Challenge</h2>
                     <p>Tuberculosis (TB) is a potentially serious infectious disease that mainly affects the lungs. The bacteria that cause tuberculosis are spread from one person to another through respiratory droplets. TB is a top 10 leading cause of death by infection. Fortunately, it is highly treatable.</p>
                     <p>Social stigma and severe treatment side effects often deter patients from completing the 6+ month long treatment process, leading to further spread of the disease and at times even drug-resistant strains of TB.</p>
                     <p><span style={{ fontWeight: 'bold' }}>TB Treatment Companion</span> is a mobile web app that helps patients and care providers keep track of treatment though the use of both patient and coordinator interfaces and a test strip tracking system.</p>
@@ -117,7 +108,7 @@ class Project1 extends Component {
                 </div>
 
                 <div style={{ marginBottom: 4 + 'em' }}>
-                    <h2 style={{ fontWeight: 'bold' }}>Design</h2>
+                    <h2>Design</h2>
                     <h3>Design System</h3>
                     <p>After initial wire frames and user flows, the other designers and I collaborated to create a design system that would remain consistent across all hi-fidelity designs. This ensured a consistent, intuitive experience for users across the entire application.</p>
                     <img src={image5} alt='Treatment Companion App' style={{ width: 100 + '%', marginBottom: 3 + 'em' }}></img>
@@ -191,7 +182,7 @@ class Project1 extends Component {
                 </div>
 
                 <div style={{ marginBottom: 4 + 'em' }}>
-                    <h2 style={{ fontWeight: 'bold' }}>What I Learned</h2>
+                    <h2>What I Learned</h2>
                     <p>I've learned so much through this project about both design and working with a team. Here are some of my key takeaways:</p>
                     <ul>
                         <li>Experience designing around development limitations. Some UI features the design team and I had hoped to include were limited due to overcomplicated development process of those features and too short a timeline. I’ve learned to be flexible and be ready to change directions when needed to meet both design and development needs.</li>
@@ -201,7 +192,7 @@ class Project1 extends Component {
                 </div>
 
                 <div style={{ marginBottom: 4 + 'em' }}>
-                    <h2 style={{ fontWeight: 'bold' }}>Next Steps</h2>
+                    <h2>Next Steps</h2>
                     <p>I'm excited to join the team again for Spring Quarter 2020 where we will continue iterate on the designs to create a more successful application that helps patients and doctors. Next steps for the team include:</p>
                     <ul style={{ marginLeft: 2 + 'em' }}>
                         <li>Usability testing</li>

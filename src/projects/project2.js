@@ -153,12 +153,10 @@ class Project2 extends Component {
                     <div style={{ marginBottom: 4 + 'em' }}>
                         <h2 style={{ fontWeight: 'bold' }}>03 Design</h2>
 
-                        <h3>Overview</h3>
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
                             <img src={image1} alt='overview' style={{ width: 60 + 'em', marginBottom: 4 + 'em' }}></img>
                         </div>
 
-                        <h3>Detail</h3>
                         <div style={{ display: 'flex', marginBottom: 4 + 'em' }}>
                             <img src={connect1} alt='Connect' style={{ width: 40 + 'em', marginRight: 4 + 'em' }}></img>
                             <div style={{ flexDirection: 'column' }}>
@@ -242,7 +240,7 @@ class Project2 extends Component {
 
 
                     <div style={{ marginBottom: 4 + 'em' }}>
-                        <h2 style={{ fontWeight: 'bold' }}>What I Learned</h2>
+                        <h2>What I Learned</h2>
                         <p>I learned a lot from this project. even though it was only a week long. It definitely make me want to take on some more rapid side projects in the future! Here are a few of my key takeaways:</p>
                         <ul>
                             <li>When working on a tight timeline, planning is everything. Dedicating time on the first day of this project to establish a timeline helped me immensely in ensuring I could end up with a completed project in just one week. I didn't end up following my plan exactly to the hour, but it gave me the structure needed to end up with a finished product I could be proud of.</li>
@@ -252,7 +250,7 @@ class Project2 extends Component {
                     </div>
 
                     <div style={{ marginBottom: 4 + 'em' }}>
-                        <h2 style={{ fontWeight: 'bold' }}>Thank you to Google for inviting me to complete this design exercise!</h2>
+                        <h2>Thank you to Google for inviting me to complete this design exercise!</h2>
                     </div>
 
                 <div className='project-links'>
