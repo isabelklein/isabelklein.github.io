@@ -1,8 +1,8 @@
 import headshot from './images/headshot.jpeg'
 import project1 from './images/treatmentCompanion.png'
 import project2 from './images/UWConnect.png'
-import project3 from './images/alumniPathways.png'
-import project4 from './images/WTA.png'
+import project3 from './images/WTA.png'
+// import project4 from './images/alumniPathways.png'
 // import project5 from './images/project5.png'
 export default
 
@@ -38,18 +38,18 @@ export default
             },
             { 
                 id: 3,
-                title: 'Alumni Pathways',
-                service: 'User Research',
+                title: 'WTA Brand Book',
+                service: 'Brand Design',
                 imageSrc: project3,
                 url: '/project3'
             },
-            {
-                id: 4,
-                title: 'WTA Rebrand',
-                service: 'Brand Design',
-                imageSrc: project4,
-                url: '/project4'
-           },
+        //     {
+        //         id: 4,
+        //         title: 'Alumni Pathways',
+        //         service: 'User Research',
+        //         imageSrc: project4,
+        //         url: '/project4'
+        //    },
         //     {
         //         id: 5,
         //         title: 'Project Five',

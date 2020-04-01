@@ -28,9 +28,11 @@ class Project2 extends Component {
                     <div className='project-header'>
                         <img src={header} alt='header'></img>
                     </div>
+                    </Fade>
+                    <div className='project-body'>
+                    <Fade bottom>
                     <h1>UWConnect</h1>
                     <h2 style={{ fontSize: 1.7 + 'em', marginBottom: 2 + 'em' }}>Building community through a mobile app</h2>
-                </Fade>
 
                     <table style={{ marginBottom: 2 + 'em' }}>
                         <thead>
@@ -53,9 +55,9 @@ class Project2 extends Component {
                             </tr>
                         </tbody>
                     </table>
-
+                    </Fade>
                     <div style={{ display: 'flex', flexDirection: 'row', marginTop: 4 + 'em' }}>
-                        <img src={image1} alt='overview' style={{ width: 60 + 'em' }}></img>
+                        <img src={image1} alt='overview' style={{ width: 100 + '%' }}></img>
                     </div>
 
                     <div style={{ marginBottom: 4 + 'em' }}>
@@ -123,15 +125,15 @@ class Project2 extends Component {
 
                         <h3>Competitive Analysis</h3>
                         <p style={{ marginBottom: 2 + 'em' }}>Several experiences aiming to strengthen UW’s community already exist. However interviews revealed that the University still lacks a strong sense of community. I researched existing orientation and peer-mentor programs at UW and evaluated strengths and weaknesses based on user interview findings.</p>
-                        <img src={image2} alt='competitive analysis' style={{ width: 60 + 'em' }}></img>
+                        <img src={image2} alt='competitive analysis' style={{ width: 100 + '%' }}></img>
 
                         <h2 style={{ fontWeight: 'bold' }}>02 Ideation</h2>
                         <h3>Sketchbook</h3>
                         <p>I began by brainstorming solutions, considering both physical and digital possibilities. Based on product goals, user needs, and feasibility, I determined a mobile app experience would most successfully meet project goals.</p>
-                        <img src={image3} alt='Sketchbook Ideation' style={{ width: 60 + 'em' }}></img>
+                        <img src={image3} alt='Sketchbook Ideation' style={{ width: 100 + '%' }}></img>
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <img src={image4} alt='Onboarding flow' style={{ width: 20 + 'em' }}></img>
-                            <img src={image5} alt='Sketchbook wireframes' style={{ width: 40 + 'em' }}></img>
+                            <img src={image4} alt='Onboarding flow' style={{ width: 30 + '%' }}></img>
+                            <img src={image5} alt='Sketchbook wireframes' style={{ width: 70 + '%' }}></img>
                         </div>
 
                         <h3>User Flow</h3>
@@ -142,23 +144,23 @@ class Project2 extends Component {
                             <li>Likes: view liked events and organizations </li>
                             <li>Profile: edit preferences or manage created events and organizations</li>
                         </ol>
-                        <img src={userFlow} alt='user flow' style={{ width: 60 + 'em' }}></img>
+                        <img src={userFlow} alt='user flow' style={{ width: 100 + '%' }}></img>
 
                         <h3>Wireframes</h3>
                         <p>Low fidelity wireframes allow me to focus on the design concepts and flow before spending too much time on visual details. They also make iteration and exploration of design ideas more efficient.</p>
-                        <img src={wireframes} alt='user flow' style={{ width: 60 + 'em' }}></img>
+                        <img src={wireframes} alt='user flow' style={{ width: 100 + '%' }}></img>
 
                     </div>
 
                     <div style={{ marginBottom: 4 + 'em' }}>
                         <h2 style={{ fontWeight: 'bold' }}>03 Design</h2>
 
-                        <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <img src={image1} alt='overview' style={{ width: 60 + 'em', marginBottom: 4 + 'em' }}></img>
+                        <div className='project-image-wide'>
+                            <img src={image1} alt='overview'></img>
                         </div>
 
                         <div style={{ display: 'flex', marginBottom: 4 + 'em' }}>
-                            <img src={connect1} alt='Connect' style={{ width: 40 + 'em', marginRight: 4 + 'em' }}></img>
+                            <img src={connect1} alt='Connect' style={{ width: 60 + '%', marginRight: 4 + 'em' }}></img>
                             <div style={{ flexDirection: 'column' }}>
                                 <h3>Connect</h3>
                                 <p>Users sign up using their UW account.</p>
@@ -167,7 +169,7 @@ class Project2 extends Component {
                         </div>
 
                         <div style={{ display: 'flex', marginBottom: 4 + 'em' }}>
-                            <img src={connect2} alt='Connect' style={{ width: 40 + 'em', marginRight: 4 + 'em' }}></img>
+                            <img src={connect2} alt='Connect' style={{ width: 60 + '%', marginRight: 4 + 'em' }}></img>
                             <div style={{ flexDirection: 'column' }}>
                                 <p>Survey fields were determined based on interview findings.</p>
                                 <p>Interviewees indicated mentor/mentee relationships often help with adjusting to academic stress in college.</p>
@@ -176,7 +178,7 @@ class Project2 extends Component {
                         </div>
 
                         <div style={{ display: 'flex', marginBottom: 4 + 'em' }}>
-                            <img src={connect3} alt='Connect' style={{ width: 40 + 'em', marginRight: 4 + 'em' }}></img>
+                            <img src={connect3} alt='Connect' style={{ width: 60 + '%', marginRight: 4 + 'em' }}></img>
                             <div style={{ flexDirection: 'column' }}>
                                 <p>They also indicated importance of similar extracurricular interests and personalities.</p>
                                 <p>The survey concludes with availability to ensure that and mentees will have compatible schedules.</p>
@@ -184,7 +186,7 @@ class Project2 extends Component {
                         </div>
 
                         <div style={{ display: 'flex', marginBottom: 4 + 'em' }}>
-                            <img src={connect4} alt='Connect' style={{ width: 40 + 'em', marginRight: 4 + 'em' }}></img>
+                            <img src={connect4} alt='Connect' style={{ width: 60 + '%', marginRight: 4 + 'em' }}></img>
                             <div style={{ flexDirection: 'column' }}>
                                 <p>Users can select their top picks out of a list of generated matches.</p>
                                 <p>The app will match them with a mentor/mentee who indicated mutual interest in order to foster more successful mentorships.</p>
@@ -192,7 +194,7 @@ class Project2 extends Component {
                         </div>
 
                         <div style={{ display: 'flex', marginBottom: 4 + 'em' }}>
-                            <img src={chat} alt='Connect' style={{ width: 40 + 'em', marginRight: 4 + 'em' }}></img>
+                            <img src={chat} alt='Connect' style={{ width: 60 + '%', marginRight: 4 + 'em' }}></img>
                             <div style={{ flexDirection: 'column' }}>
                                 <h3>Chat</h3>
                                 <p>Once the final match is generated, users are notified.</p>
@@ -203,7 +205,7 @@ class Project2 extends Component {
                         </div>
 
                         <div style={{ display: 'flex', marginBottom: 4 + 'em' }}>
-                            <img src={discover} alt='Discover' style={{ width: 40 + 'em', marginRight: 4 + 'em' }}></img>
+                            <img src={discover} alt='Discover' style={{ width: 60 + '%', marginRight: 4 + 'em' }}></img>
                             <div style={{ flexDirection: 'column' }}>
                                 <h3>Discover</h3>
                                 <p>Interviews indicated that a strong community is fostered through joining organizations and attending events.</p>
@@ -213,7 +215,7 @@ class Project2 extends Component {
                         </div>
 
                         <div style={{ display: 'flex', marginBottom: 4 + 'em' }}>
-                            <img src={add} alt='Connect' style={{ width: 40 + 'em', marginRight: 4 + 'em' }}></img>
+                            <img src={add} alt='Connect' style={{ width: 60 + '%', marginRight: 4 + 'em' }}></img>
                             <div style={{ flexDirection: 'column' }}>
                                 <h3>Add</h3>
                                 <p>Users can also add their own organizations and events to be suggested to other students. </p>
@@ -223,7 +225,7 @@ class Project2 extends Component {
                         </div>
 
                         <div style={{ display: 'flex', marginBottom: 4 + 'em' }}>
-                            <img src={save} alt='Connect' style={{ width: 40 + 'em', marginRight: 4 + 'em' }}></img>
+                            <img src={save} alt='Connect' style={{ width: 60 + '%', marginRight: 4 + 'em' }}></img>
                             <div style={{ flexDirection: 'column' }}>
                                 <h3>Save</h3>
                                 <p>Users can easily view and keep track of liked events and organizations in the Likes tab.</p>
@@ -234,7 +236,7 @@ class Project2 extends Component {
                 {/* </div> */}
 
 
-                <div className='project-image-wide'>
+                <div className='project-image-wide' style={{marginTop: 5 + 'em'}}>
                     <img src={recap} alt='recap'></img>
                 </div>
 
@@ -253,8 +255,11 @@ class Project2 extends Component {
                         <h2>Thank you to Google for inviting me to complete this design exercise!</h2>
                     </div>
 
-                <div className='project-links'>
-                    <a href='/project3'>Next Project: Alumni Pathways ›</a>
+                    <div className='project-links'>
+                        <h2>Other Projects</h2>
+                        <a href='/project1'>Treatment Companion / UX Design ›</a><br></br>
+                        <a href='/project3'>Washington Trails Association / Brand Design ›</a>
+                    </div>
                 </div>
 
             </div>
