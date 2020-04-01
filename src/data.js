@@ -27,21 +27,21 @@ export default
             title:'Tuberculosis Treatment Companion',
              service:'UI/UX Design',
              imageSrc: project1,
-             url: '/project1'
+             url: '/TreatmentCompanion'
             },
             {
                 id: 2,
                 title: 'UWConnect',
                 service: 'UX Design',
                 imageSrc: project2,
-                url: '/project2'
+                url: '/UWConnect'
             },
             { 
                 id: 3,
                 title: 'WTA Brand Book',
                 service: 'Brand Design',
                 imageSrc: project3,
-                url: '/project3'
+                url: '/WTA'
             },
         //     {
         //         id: 4,

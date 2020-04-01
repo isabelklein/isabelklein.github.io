@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { animateScroll as scroll } from "react-scroll";
 import About from './About.js';
-import { HashRouter, Route, Link } from 'react-router-dom'; 
+import { BrowserRouter, Route, Link } from 'react-router-dom'; 
 import Home from './home.js';
 import Fade from 'react-reveal/Fade';
 import data from '../data'
@@ -18,14 +18,14 @@ class Navbar extends Component {
     };
     render() { 
         return (
-        <HashRouter>
+        <BrowserRouter>
 
-            <Route path={process.env.PUBLIC_URL + "/"} component={Home} />
-            <Route path={process.env.PUBLIC_URL + "/About"} component={About} />
-            <Route path={process.env.PUBLIC_URL + "/project1"} component={Project1} />
-             <Route path={process.env.PUBLIC_URL + "/project2"} component={Project2} />
-             <Route path={process.env.PUBLIC_URL + "/project3"} component={Project3} />
-             <Route path={process.env.PUBLIC_URL + "/project4"} component={Project4} />
+            <Route exact path="/" component={Home} />
+            <Route path="/About" component={About} />
+            <Route exact path="/TreatmentCompanion" component={Project1} />
+             <Route path="/UWConnect" component={Project2} />
+             <Route path="/WTA" component={Project3} />
+             <Route path="/project4" component={Project4} />
 
         <div>
         <nav>  
@@ -36,7 +36,7 @@ class Navbar extends Component {
                 <li><Link
                     className='link'
                     activeClass="active"
-                    to={process.env.PUBLIC_URL + "/"}
+                    to="/"
                     spy={true}
                     smooth={true}
                     offset={-70}
@@ -46,7 +46,7 @@ class Navbar extends Component {
                 <li><Link
                     className='link'
                     activeClass="active"
-                    to={process.env.PUBLIC_URL + "/About"}
+                    to="/About"
                     spy={true}
                     smooth={true}
                     offset={-70}
@@ -62,7 +62,7 @@ class Navbar extends Component {
         </nav>
         </div>
 
-        </HashRouter>);
+        </BrowserRouter>);
     }
 }
  
