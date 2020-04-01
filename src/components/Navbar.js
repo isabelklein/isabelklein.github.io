@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { animateScroll as scroll } from "react-scroll";
 import About from './About.js';
-import { BrowserRouter, Route, Link } from 'react-router-dom'; 
+import { HashRouter, Route, Link } from 'react-router-dom'; 
 import Home from './home.js';
 import Fade from 'react-reveal/Fade';
 import data from '../data'
@@ -18,7 +18,7 @@ class Navbar extends Component {
     };
     render() { 
         return (
-        <BrowserRouter>
+        <HashRouter>
 
             <Route exact path="/" component={Home} />
             <Route path="/About" component={About} />
@@ -62,7 +62,7 @@ class Navbar extends Component {
         </nav>
         </div>
 
-        </BrowserRouter>);
+        </HashRouter>);
     }
 }
  

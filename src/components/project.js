@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
-import { BrowserRouter, Route } from 'react-router-dom'; 
+import { HashRouter, Route } from 'react-router-dom'; 
 import Project1 from '../projects/project1.js';
 import Project2 from '../projects/project2.js';
 import Project3 from '../projects/project3.js';
@@ -11,7 +11,7 @@ class Project extends Component {
 
     render() { 
         return ( 
-        <BrowserRouter>
+        <HashRouter>
 
             <Route exact path="/project1" component={Project1} />
             <Route path="/project2" component={Project2} />
@@ -26,7 +26,7 @@ class Project extends Component {
             </div> 
             </Fade>
             
-        </BrowserRouter>
+        </HashRouter>
         );
     }
 }
