@@ -20,7 +20,7 @@ class Project extends Component {
             
             <Fade bottom>
             <div className='thumbnail'>
-            <a href={this.props.url}>
+            <a href={process.env.PUBLIC_URL + this.props.url}>
                 <img src={this.props.imageSrc} alt={this.props.title}></img>
             </a>
             </div> 

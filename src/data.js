@@ -27,7 +27,7 @@ export default
             title:'Tuberculosis Treatment Companion',
              service:'UI/UX Design',
              imageSrc: project1,
-             url:'/project1'
+             url: '/project1'
             },
             {
                 id: 2,

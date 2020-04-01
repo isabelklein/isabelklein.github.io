@@ -36,7 +36,7 @@ class Navbar extends Component {
                 <li><Link
                     className='link'
                     activeClass="active"
-                    to="/"
+                    to={process.env.PUBLIC_URL + "/"}
                     spy={true}
                     smooth={true}
                     offset={-70}
@@ -46,7 +46,7 @@ class Navbar extends Component {
                 <li><Link
                     className='link'
                     activeClass="active"
-                    to="/About"
+                    to={process.env.PUBLIC_URL + "/About"}
                     spy={true}
                     smooth={true}
                     offset={-70}
