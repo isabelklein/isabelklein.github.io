@@ -11,7 +11,7 @@ class Project extends Component {
 
     render() { 
         return ( 
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
 
             <Route exact path="/TreatmentCompanion" component={Project1} />
             <Route path="/UWConnect" component={Project2} />

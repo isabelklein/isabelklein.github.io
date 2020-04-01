@@ -373,8 +373,8 @@ class Project3 extends Component {
 
                     <div className='project-links'>
                         <h2>Other Projects</h2>
-                        <a href='/project1'>Treatment Companion / UX Design ›</a><br></br>
-                        <a href='/project2'>UWConnect / UX Design ›</a>
+                        <a href='/TreatmentCompanion'>Treatment Companion / UX Design ›</a><br></br>
+                        <a href='/UWConnect'>UWConnect / UX Design ›</a>
                     </div>
                 </div>
             </div>

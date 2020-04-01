@@ -206,8 +206,8 @@ class Project1 extends Component {
 
                     <div className='project-links'>
                         <h2>Other Projects</h2>
-                        <a href='/project2'>UWConnect / UX Design ›</a><br></br>
-                        <a href='/project3'>Washington Trails Association / Brand Design ›</a>
+                        <a href='/UWConnect'>UWConnect / UX Design ›</a><br></br>
+                        <a href='/WTA'>Washington Trails Association / Brand Design ›</a>
                     </div>
                 </div>
             </div>
