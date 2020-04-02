@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { animateScroll as scroll } from "react-scroll";
 import About from './About.js';
-import { BrowserRouter, Route, Link } from 'react-router-dom'; 
+import { HashRouter as Router, Route, Link } from 'react-router-dom'; 
 import Home from './home.js';
 import Fade from 'react-reveal/Fade';
 import data from '../data'
@@ -18,14 +18,14 @@ class Navbar extends Component {
     };
     render() { 
         return (
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Router basename={process.env.PUBLIC_URL}>
 
-            <Route exact path="/" component={Home} />
+            <Route path="/" component={Home} />
             <Route path="/About" component={About} />
-            <Route exact path="/TreatmentCompanion" component={Project1} />
-             <Route path="/UWConnect" component={Project2} />
-             <Route path="/WTA" component={Project3} />
-             <Route path="/project4" component={Project4} />
+            <Route path="/TreatmentCompanion" component={Project1} />
+            <Route path="/UWConnect" component={Project2} />
+            <Route path="/WTA" component={Project3} />
+            <Route path="/project4" component={Project4} />
 
         <div>
         <nav>  
@@ -62,7 +62,7 @@ class Navbar extends Component {
         </nav>
         </div>
 
-        </BrowserRouter>);
+        </Router>);
     }
 }
  
